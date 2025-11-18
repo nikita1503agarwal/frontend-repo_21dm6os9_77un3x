@@ -1,0 +1,19 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 331 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.27.172:3000/
+9:37:42 AM [vite] warning: The character ">" is not valid inside a JSX element
+31 |          <h2 className='text-2xl font-semibold'>Werte</h2>
+32 |          <ul className='mt-4 grid md:grid-cols-2 gap-3 text-white/70'>
+33 |            <li className='rounded-xl bg-white/5 border border-white/10 p-4'>Performance – Ergebnisse > Worte</li>
+   |                                                                                                        ^
+34 |            <li className='rounded-xl bg-white/5 border border-white/10 p-4'>Transparenz – Ehrliche Kommunikation</li>
+35 |            <li className='rounded-xl bg-white/5 border border-white/10 p-4'>Partnerschaft – Gemeinsame Ziele</li>
+
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/About.jsx
